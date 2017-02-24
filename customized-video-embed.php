@@ -44,7 +44,7 @@ class VideoEmbed
 
         if (!is_feed() && (!empty($matches))) {
             $html = sprintf(
-                '<div class="mod videoembed flex-video widescreen pt-videoembed %1$s">%2$s</div>',
+                '<div class="mod videoembed flex-video widescreen %1$s">%2$s</div>',
                 sanitize_title_with_dashes($matches[0]),
                 $html
             );
