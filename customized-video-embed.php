@@ -8,7 +8,7 @@ Version: 2.2
 Author URI: https://markweb.ch/
 */
 
-namespace Frappant;
+namespace MHM;
 
 class VideoEmbed
 {
